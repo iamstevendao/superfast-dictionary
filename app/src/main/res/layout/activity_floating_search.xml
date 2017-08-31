@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@color/background_all"
+    android:orientation="vertical"
+    android:padding="3dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <EditText
+                android:id="@+id/search_float"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:hint="search"
+                android:lines="1"
+                android:singleLine="true" />
+
+            <Button
+                android:id="@+id/button_clear_float"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginEnd="5dp"
+                android:layout_centerInParent="true"
+                android:layout_marginRight="5dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:visibility="gone"
+                android:background="@drawable/clear_icon" />
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/button_to_main"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:background="@drawable/link_icon"
+            android:layout_marginTop="-4dp"/>
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/suggest_float"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@null"
+        android:dividerHeight="2dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginEnd="6dp"
+        android:layout_marginBottom="6dp"/>
+
+    <RelativeLayout
+        android:id="@+id/layout_result_float"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:layout_marginStart="6dp"
+        android:layout_marginEnd="6dp"
+        android:layout_marginBottom="6dp">
+
+        <TextView
+            android:id="@+id/result_float"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="3dp"
+            android:layout_marginStart="3dp"
+            android:scrollbars="vertical" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginEnd="3dp"
+            android:layout_marginRight="3dp"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/button_speaker_float"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:background="@drawable/speaker_icon" />
+
+            <ToggleButton
+                android:id="@+id/button_bm_float"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:background="@drawable/ic_toggle"
+                android:textOff=""
+                android:textOn=""/>
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

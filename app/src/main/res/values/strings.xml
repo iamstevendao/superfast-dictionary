@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">SNAnhViệt</string>
+    <string name="search">Search</string>
+    <string name="facebook_app_id">568033696683905</string>
+    <string name="chathead_content_title">デモチャット：アクティブ</string>
+    <string name="chathead_content_text">デモ実行中</string>
+    <string name="charhead_click_message">クリック!</string>
+    <string name="error_load_ad">広告が読み込めなかったか、string.xmlの広告ユニットIDが正しく設定されていません</string>
+    <string name="delete_demo">デモ表示を削除</string>
+    <string name="show_demo">デモ表示</string>
+    <string name="permission_denied">オーバレイの許可が出ませんでした</string>
+</resources>
