@@ -8,7 +8,7 @@ Check out the App: [Superfast Dictionary](https://play.google.com/store/apps/det
 
 ## Table of contents
 - [Requirements](#requirements)
-- [Screenshots](#screnshots)
+- [Screenshots](#screenshots)
 - [Usage](#usage)
 - [License](#license)
 
