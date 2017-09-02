@@ -1,10 +1,9 @@
 # Superfast Dictionary
 > English-Vietnamese Dictionary Android Application  
-> Contact me: [@iamstevendao](https://twitter.com/iamstevendao), [linkedIn@iamstevendao](https://www.linkedin.com/in/steven-dao-b9a065127/)  
 
-[![SnappyDB](https://img.shields.io/badge/snappyDB-0.1.0-red.svg)](https://github.com/nhachicha/SnappyDB) [![StarDict](https://img.shields.io/badge/starDict-2.4.8-red.svg)](http://www.stardict.org/)
+[![@iamstevendao](https://img.shields.io/badge/twitter-@iamstevendao-blue.svg)](https://twitter.com/iamstevendao) [![@linkedin](https://img.shields.io/badge/LinkedIn-@iamstevendao-blue.svg)](https://www.linkedin.com/in/steven-dao-b9a065127/) [![SnappyDB](https://img.shields.io/badge/snappyDB-0.1.0-red.svg)](https://github.com/nhachicha/SnappyDB) [![StarDict](https://img.shields.io/badge/starDict-2.4.8-red.svg)](http://www.stardict.org/)
 
-Check out the App: [Superfast Dictionary](https://play.google.com/store/apps/details?id=fukie.sieunhanhav)
+### Check out at Google Store: [Superfast Dictionary](https://play.google.com/store/apps/details?id=fukie.sieunhanhav)
 
 ## Table of contents
 - [Requirements](#requirements)
